@@ -88,7 +88,7 @@ function App () {
           
         {/* </fieldset> */}
         <p></p>
-        <button type='submit'>Submit</button>
+        <button type='submit' >Submit</button>
       </form>
       
 
@@ -96,7 +96,7 @@ function App () {
      
       <div className='Info'>
         
-      {submitting &&
+      {submitting && 
         <div>You just submitted this:
           <ul>
           {Object.entries(formData).map(([name, value,desc,lastname,email]) => (
